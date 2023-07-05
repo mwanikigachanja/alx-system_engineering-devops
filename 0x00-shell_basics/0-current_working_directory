@@ -1,7 +1,3 @@
-#!/bin/bash
-
-cwd=$(pwd)
-abs_path=$(cd "$cwd" && pwd)
-
-echo "Current working directory: $abs_path"
+#!/bin/sh
+dirname "$(readlink -f "$0")"
 
