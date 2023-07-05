@@ -1,2 +1,2 @@
 #!/bin/bash
-(IFS=,; printf "./, ../"; for entry in $(ls -a); do printf " %s," "$entry"; done) | sed 's/,$/\n/'
+printf "%s," . .. * | sort -d | awk 'BEGIN {ORS=""; FS=","} {for (i=1; i<=NF; i++) print $i ($i ~ /[[:alnum:]]\/*$/) ? ", " : "\n"}'
