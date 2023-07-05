@@ -1,5 +1,7 @@
-import os
+#!/bin/bash
 
-current_dir = os.getcwd()
-print("Current working directory:", current_dir)
+cwd=$(pwd)
+abs_path=$(cd "$cwd" && pwd)
+
+echo "Current working directory: $abs_path"
 
