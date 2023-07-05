@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s," . .. * | sort -d | tr '\n' ',' | sed 's/,$/\n/'
+(IFS=,; printf "./, ../"; for entry in $(ls -a); do printf " %s," "$entry"; done) | sed 's/,$/\n/'
