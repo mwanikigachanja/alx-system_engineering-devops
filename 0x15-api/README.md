@@ -56,9 +56,7 @@ The project involves developing Python scripts to perform various tasks related 
 - No additional dependencies for Tasks 1, 2, and 3.
 
 ## Contributors
-- [Your Name]
-- [Contributor 1]
-- [Contributor 2]
+CHARLES MWANIKI
 
 ## License
 This project is licensed under the [MIT License](link-to-license).
