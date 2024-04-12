@@ -1,8 +1,8 @@
 {
   "type": "metric alert",
-  "query": "avg(last_5m):sum:system.io.w_s{*} > 100",
-  "name": "Write Requests Alert",
-  "message": "Write requests exceeding threshold",
+  "query": "avg(last_5m):sum:system.io.r_s{*} > 100",
+  "name": "Read Requests Alert",
+  "message": "Read requests exceeding threshold",
   "options": {
     "notify_no_data": true,
     "notify_audit": true,
