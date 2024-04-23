@@ -1,11 +1,12 @@
 Challenges
+
 Unearthed Challenges
 - Complexity of Data Analysis – Implementing robust data analysis tools for seeds has proven more intricate than anticipated. Dealing with large datasets and ensuring real-time updates for users present technical challenges.
 - Integration with External APIs – Integrating with external APIs for weather data and seed information has posed challenges in terms of data formatting, authentication, and error handling.
 - Performance Optimization – Ensuring the application performs well under load while handling complex data processing tasks has required significant optimization efforts.
 Plan Adaptation
 - Refinement of MVP Features: To address the complexity of data analysis, the plan has been adapted to focus on essential data analysis features that provide the most value to users.
-- API Integration Strategy: A more robust strategy for handling external API integration, including thorough testing and error handling has been incorporated into the plan.
+- API Integration Strategy: A more robust strategy for handling external API integration, including thorough testing and error handling, has been incorporated into the plan.
 - Performance Testing and Optimization: More emphasis has been placed on performance testing and optimization techniques to ensure the application meets performance requirements.
 Non-Technical Challenges
 - Time Management: Balancing project development with other responsibilities and commitments has been a challenge, requiring careful prioritization and time management.
