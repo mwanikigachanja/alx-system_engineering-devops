@@ -1,0 +1,28 @@
+Challenges
+
+Unearthed Challenges
+- Complexity of Data Analysis – Implementing robust data analysis tools for seeds has proven more intricate than anticipated. Dealing with large datasets and ensuring real-time updates for users present technical challenges.
+- Integration with External APIs – Integrating with external APIs for weather data and seed information has posed challenges in terms of data formatting, authentication, and error handling.
+- Performance Optimization – Ensuring the application performs well under load while handling complex data processing tasks has required significant optimization efforts.
+Plan Adaptation
+- Refinement of MVP Features: To address the complexity of data analysis, the plan has been adapted to focus on essential data analysis features that provide the most value to users.
+- API Integration Strategy: A more robust strategy for handling external API integration, including thorough testing and error handling, has been incorporated into the plan.
+- Performance Testing and Optimization: More emphasis has been placed on performance testing and optimization techniques to ensure the application meets performance requirements.
+Non-Technical Challenges
+- Time Management: Balancing project development with other responsibilities and commitments has been a challenge, requiring careful prioritization and time management.
+Collaboration/Communication
+Collaboration Challenges
+- Lack of Team Collaboration: As the sole team member, collaboration has been limited to seeking feedback from mentors and peers during PLDs. This has made it challenging to brainstorm and problem-solve with a team.
+Collaboration Successes
+- External Support: Despite limited team collaboration, external support from mentors and peers has been valuable in providing insights and suggestions for project improvement.
+Project Updates
+Changes to Deliverables
+- Refined MVP Features: The MVP features have been refined to focus on core functionalities such as seed data analysis, user authentication, and ecological zone information display.
+- Enhanced User Interface: Improvements have been made to the user interface design to enhance user experience and make data analysis tools more intuitive.
+Progress
+Progress Rating: 7/10
+- Measurement: Progress is measured based on completed tasks and milestones outlined in the project plan.
+- Rating Justification: The rating reflects significant progress in database design, user authentication implementation, and initial data analysis tool development. However, challenges with API integration and performance optimization have slowed progress in other areas.
+Completion Assessment
+- Project Completion: While progress is substantial, there is a need for more focused effort in addressing API integration challenges and performance optimization to ensure project completion within the specified timeline. Adjustments to the project plan have been made to accommodate these challenges and ensure timely completion.
+
