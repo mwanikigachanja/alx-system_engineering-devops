@@ -1,0 +1,16 @@
+[0;1;31m●[0m myflaskapp.service - Gunicorn instance to serve myflaskapp
+     Loaded: loaded (/etc/systemd/system/myflaskapp.service; enabled; vendor preset: enabled)
+     Active: [0;1;31mfailed[0m (Result: exit-code) since Thu 2024-05-16 07:48:31 UTC; 6s ago
+    Process: 1575702 ExecStart=/home/ubuntu/alx-system_engineering-devops/sports-analysis-app/venv/bin/gunicorn --workers 3 --bind unix:myflaskapp.sock -m 007 wsgi:app [0;1;31m(code=exited, status=1/FAILURE)[0m
+   Main PID: 1575702 (code=exited, status=1/FAILURE)
+
+May 16 07:48:26 465072-web-01 gunicorn[1575702]: [2024-05-16 07:48:26 +0000] [1575702] [INFO] Starting gunicorn 22.0.0
+May 16 07:48:26 465072-web-01 gunicorn[1575702]: [2024-05-16 07:48:26 +0000] [1575702] [ERROR] Retrying in 1 second.
+May 16 07:48:27 465072-web-01 gunicorn[1575702]: [2024-05-16 07:48:27 +0000] [1575702] [ERROR] Retrying in 1 second.
+May 16 07:48:28 465072-web-01 gunicorn[1575702]: [2024-05-16 07:48:28 +0000] [1575702] [ERROR] Retrying in 1 second.
+May 16 07:48:29 465072-web-01 gunicorn[1575702]: [2024-05-16 07:48:29 +0000] [1575702] [ERROR] Retrying in 1 second.
+May 16 07:48:30 465072-web-01 gunicorn[1575702]: [2024-05-16 07:48:30 +0000] [1575702] [ERROR] Retrying in 1 second.
+May 16 07:48:31 465072-web-01 gunicorn[1575702]: [2024-05-16 07:48:31 +0000] [1575702] [ERROR] Can't connect to myflaskapp.sock
+May 16 07:48:31 465072-web-01 gunicorn[1575702]: 2024-05-16 07:48:31,792 WARNING [ddtrace.vendor.dogstatsd] [base.py:1031] [dd.service=gunicorn dd.env= dd.version= dd.trace_id=0 dd.span_id=0] - Error submitting packet: [Errno 111] Connection refused, dropping the packet and closing the socket
+May 16 07:48:31 465072-web-01 systemd[1]: [0;1;39m[0;1;31m[0;1;39mmyflaskapp.service: Main process exited, code=exited, status=1/FAILURE[0m
+May 16 07:48:31 465072-web-01 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmyflaskapp.service: Failed with result 'exit-code'.[0m
